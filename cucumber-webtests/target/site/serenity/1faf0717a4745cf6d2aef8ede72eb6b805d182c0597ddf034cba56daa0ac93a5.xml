@@ -1,0 +1,30 @@
+<acceptance-test-run title="Login" name="Login" description="" steps="4" successful="0" failures="0" errors="1" skipped="3" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="65552" timestamp="2016-06-13T07:01:23.566-04:00">
+  <user-story id="eda-login" name="EDA Login" path="src/test/resources/features/Login/login.feature"/>
+  <versions>
+    <version>Release-1</version>
+    <version>Sprint-1.1</version>
+  </versions>
+  <tags>
+    <tag name="EDA Login" type="feature"/>
+    <tag name="UniqueBrowser" type="tag"/>
+    <tag name="Release-1" type="version"/>
+    <tag name="Sprint-1.1" type="version"/>
+  </tags>
+  <test-group name="Given I navigate to EDA Login Page" result="ERROR">
+    <test-step result="ERROR" duration="64312">
+      <description>Opens home page</description>
+      <error>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.chrome.ChromeDriver</error>
+      <exception>net.thucydides.core.webdriver.UnsupportedDriverException:Could not instantiate class org.openqa.selenium.chrome.ChromeDriver&#xd;
+[net.thucydides.showcase.cucumber.steps.serenity.loginsteps.opens_home_page(loginsteps.java:25), net.thucydides.showcase.cucumber.steps.loginstepdefinition.I_navigate_to_EDA_Login_Page(loginstepdefinition.java:18)]</exception>
+    </test-step>
+  </test-group>
+  <test-step result="SKIPPED" duration="7">
+    <description>When I provide Username and Password</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="5">
+    <description>And I Click on Login button</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="2">
+    <description>Then Home Page should be Displayed</description>
+  </test-step>
+</acceptance-test-run>

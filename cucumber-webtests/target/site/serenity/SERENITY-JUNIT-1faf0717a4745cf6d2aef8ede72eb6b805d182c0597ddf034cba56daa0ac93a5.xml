@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="0" name="EDA Login" skipped="0" tests="2" time="130.37" timestamp="2016-06-165 07:01:23"><testcase name="Login"><error message="Could not instantiate class org.openqa.selenium.chrome.ChromeDriver" type="net.thucydides.core.webdriver.UnsupportedDriverException">Could not instantiate class org.openqa.selenium.chrome.ChromeDriver</error><system-err>Could not instantiate class org.openqa.selenium.chrome.ChromeDriver&#13;
+net.thucydides.showcase.cucumber.steps.serenity.loginsteps.opens_home_page(loginsteps.java:25)&#13;
+net.thucydides.showcase.cucumber.steps.loginstepdefinition.I_navigate_to_EDA_Login_Page(loginstepdefinition.java:18)&#13;
+</system-err></testcase><testcase name="Administrator Creation"><error message="Could not instantiate class org.openqa.selenium.chrome.ChromeDriver" type="net.thucydides.core.webdriver.UnsupportedDriverException">Could not instantiate class org.openqa.selenium.chrome.ChromeDriver</error><system-err>Could not instantiate class org.openqa.selenium.chrome.ChromeDriver&#13;
+net.thucydides.showcase.cucumber.pages.UserCreationPage.AdminstratorPage(UserCreationPage.java:54)&#13;
+net.thucydides.showcase.cucumber.steps.serenity.Usercreationsteps.manageAdministratorPage(Usercreationsteps.java:16)&#13;
+net.thucydides.showcase.cucumber.steps.Usercreationstepdefition.manage_Administrator_Page_is_displayed(Usercreationstepdefition.java:16)&#13;
+</system-err></testcase></testsuite>

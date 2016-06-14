@@ -1,0 +1,55 @@
+<acceptance-test-run title="Administrator Creation" name="Administrator Creation" description="" steps="5" successful="0" failures="0" errors="1" skipped="4" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="64821" timestamp="2016-06-13T07:02:32.495-04:00">
+  <user-story id="eda-login" name="EDA Login" path="src/test/resources/features/Login/login.feature"/>
+  <versions>
+    <version>Release-1</version>
+    <version>Sprint-1.1</version>
+  </versions>
+  <tags>
+    <tag name="EDA Login" type="feature"/>
+    <tag name="Release-1" type="version"/>
+    <tag name="Sprint-1.1" type="version"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0" name="" description=""/>
+    </datasets>
+    <headers>
+      <header>Username</header>
+      <header>FirstName</header>
+      <header>LastName</header>
+      <header>EmailAddress</header>
+      <header>Password</header>
+    </headers>
+    <rows>
+      <row result="ERROR">
+        <value>Gurunathan41</value>
+        <value>Admin</value>
+        <value>User</value>
+        <value>charles@lexisnexis.com</value>
+        <value>Gpassword123!</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {Username=Gurunathan41, FirstName=Admin, LastName=User, EmailAddress=charles@lexisnexis.com, Password=Gpassword123!}" result="ERROR">
+    <test-group name="Given Manage Administrator Page is displayed" result="ERROR">
+      <test-step result="ERROR" duration="64660">
+        <description>Manage administrator page</description>
+        <error>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.chrome.ChromeDriver</error>
+        <exception>net.thucydides.core.webdriver.UnsupportedDriverException:Could not instantiate class org.openqa.selenium.chrome.ChromeDriver&#xd;
+[net.thucydides.showcase.cucumber.pages.UserCreationPage.AdminstratorPage(UserCreationPage.java:54), net.thucydides.showcase.cucumber.steps.serenity.Usercreationsteps.manageAdministratorPage(Usercreationsteps.java:16), net.thucydides.showcase.cucumber.steps.Usercreationstepdefition.manage_Administrator_Page_is_displayed(Usercreationstepdefition.java:16)]</exception>
+      </test-step>
+    </test-group>
+    <test-step result="SKIPPED" duration="0">
+      <description>And I navigate to Create Administrator Page</description>
+    </test-step>
+    <test-step result="SKIPPED" duration="0">
+      <description>When I provide valid Administrator &quot;Gurunathan41&quot;, &quot;Admin&quot;, &quot;User&quot;, &quot;charles@lexisnexis.com&quot; and &quot;Gpassword123!&quot;</description>
+    </test-step>
+    <test-step result="SKIPPED" duration="0">
+      <description>And clicking on Create Administrator button</description>
+    </test-step>
+    <test-step result="SKIPPED" duration="16">
+      <description>Then User Successfully created message should be displayed</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>
